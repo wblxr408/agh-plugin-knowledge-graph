@@ -1,0 +1,17 @@
+{
+  "client": {
+    "entry": "./client/index.js",
+    "styles": ["./client/atlas.css"],
+    "assets": ["./dist/quartz-graph.js", "./client/atlas.js", "./client/scope.js", "./client/sphere.js"],
+    "slots": [],
+    "lifetime": "profile",
+    "services": ["knowledge.atlas.read"],
+    "homeEntries": [
+      {
+        "id": "knowledge.atlas",
+        "placement": "primary",
+        "navigation": { "title": "知识图谱", "icon": "network", "order": 95 }
+      }
+    ]
+  }
+}
