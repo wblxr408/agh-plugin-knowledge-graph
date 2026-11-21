@@ -19,7 +19,7 @@ $plugin = $PWD.Path
 ## 在 AGH 中使用
 
 ```powershell
-agh plugins add git:https://github.com/wblxr408/agh-plugin-knowledge-graph#v1.1.3
+agh plugins add git:https://github.com/wblxr408/agh-plugin-knowledge-graph#runtime-v1.1.3
 agh serve
 ```
 
