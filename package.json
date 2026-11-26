@@ -1,6 +1,6 @@
 {
   "name": "@wblxr408/knowledge-graph-runtime",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "type": "module",
   "license": "Apache-2.0",
   "description": "Offline knowledge graph generator and AGH knowledge atlas",
@@ -31,6 +31,16 @@
       "ui",
       "service"
     ],
+    "application": {
+      "id": "knowledge-atlas",
+      "presentation": {
+        "navigation": {
+          "entries": [
+            "@wblxr408/knowledge-graph-runtime#knowledge.atlas"
+          ]
+        }
+      }
+    },
     "metadata": {
       "displayName": "Knowledge Atlas",
       "summary": "Explore notes, course materials and their shared concepts.",
